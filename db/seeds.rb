@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+transmutations_file = Rails.root.join('db', 'seeds', 'transmutations.yml')
+transmutations      = YAML::load_file(transmutations_file)
+
+Transmutation.create!(transmutations)
