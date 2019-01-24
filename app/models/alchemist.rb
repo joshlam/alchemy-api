@@ -9,6 +9,17 @@ class Alchemist < ApplicationRecord
   validates :name,  presence: true
   validates :email, presence: true, uniqueness: true
 
+  def unlock!(transmutation)
+    return false if unlocked?(transmutation)
+    return false unless unlockable?(transmutation)
+
+    self.send("#{transmutation.id}_unlocked=", true)
+    self.send("#{transmutation.category}_unlock=", false)
+    self.send("last_#{transmutation.category}_unlock=", transmutation.name)
+
+    save!
+  end
+
   def statuses
     Transmutation.all.each_with_object({}) do |transmutation, statuses|
       statuses[transmutation.name] = status_for(transmutation)

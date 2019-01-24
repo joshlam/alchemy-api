@@ -1,9 +1,15 @@
 class Api::TransmutationsController < ApplicationController
 
   def show
-    @transmutation = Transmutation.find_by_name(params[:name])
+    json_response(transmutation)
+  end
 
-    json_response(@transmutation)
+  def unlock
+    if current_alchemist.unlock!(transmutation)
+      json_response(transmutation)
+    else
+      json_response(current_alchemist.errors.messages, :forbidden)
+    end
   end
 
   def mind
@@ -19,6 +25,10 @@ class Api::TransmutationsController < ApplicationController
   end
 
   private
+
+  def transmutation
+    @transmutation ||= Transmutation.find_by_name(params[:name])
+  end
 
   def statuses_for(transmutations)
     transmutations.each_with_object({}) do |transmutation, statuses|

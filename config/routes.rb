@@ -7,6 +7,10 @@ Rails.application.routes.draw do
     post 'authenticate', to: 'authentication#authenticate'
 
     resources :transmutations, param: :name, only: :show do
+      member do
+        put :unlock
+      end
+
       collection do
         get :mind
         get :body
