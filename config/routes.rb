@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     resources :alchemists, only: :create
 
     post 'authenticate', to: 'authentication#authenticate'
+
+    resource :me, controller: :me, only: :show
   end
 end
