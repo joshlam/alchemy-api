@@ -1,5 +1,7 @@
 class Api::AlchemistsController < ApplicationController
 
+  skip_before_action :authenticate_request, only: :create
+
   def create
     @alchemist = Alchemist.create!(alchemist_params)
 
