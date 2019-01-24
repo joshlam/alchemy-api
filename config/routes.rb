@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
     post 'authenticate', to: 'authentication#authenticate'
 
+    resources :transmutations, param: :name, only: :show
+
     resource :me, controller: :me, only: :show
   end
 end
