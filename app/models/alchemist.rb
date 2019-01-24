@@ -39,6 +39,28 @@ class Alchemist < ApplicationRecord
     end
   end
 
+  def transcend!
+    return false if unlocking_transmutation?
+    return false if alchemist? && max_level?
+    return false unless sufficient_mana? && transmutation_requirements_met?
+
+    self.mana -= mana_for_leveling
+
+    if !alchemist? && max_level?
+      self.level = 1
+      self.rank  = rank_to_num + 1
+    else
+      self.level += 1
+    end
+
+    if apprentice? && level < 10
+      self.mind_unlock = true
+      self.body_unlock = true
+    end
+
+    save!
+  end
+
   def statuses
     Transmutation.all.each_with_object({}) do |transmutation, statuses|
       statuses[transmutation.name] = status_for(transmutation)
@@ -96,6 +118,33 @@ class Alchemist < ApplicationRecord
   def add_mana(mana)
     self.mana          += mana
     self.lifetime_mana += mana
+  end
+
+  def max_level?
+    level == (alchemist? ? 11 : 10)
+  end
+
+  def sufficient_mana?
+    mana >= mana_for_leveling
+  end
+
+  def mana_for_leveling
+    level * 10
+  end
+
+  def transmutation_requirements_met?
+    return true unless apprentice? && level < 10
+    return true if level == 1
+
+    Transmutation.joins(:transactions).where(
+      'alchemist_id = ? AND name in (?)',
+      id,
+      [last_mind_unlock, last_body_unlock]
+    ).count == 2
+  end
+
+  def rank_to_num
+    self.class.ranks[rank]
   end
 
 end

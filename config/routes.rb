@@ -18,6 +18,8 @@ Rails.application.routes.draw do
       end
     end
 
-    resource :me, controller: :me, only: :show
+    resource :me, controller: :me, only: :show do
+      post :transcend
+    end
   end
 end
