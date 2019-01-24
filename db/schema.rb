@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2019_01_20_053055) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "alchemists", force: :cascade do |t|
     t.string "name", null: false
     t.string "email", null: false
@@ -72,7 +75,7 @@ ActiveRecord::Schema.define(version: 2019_01_20_053055) do
     t.integer "mana_earned", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "alchemist_id"
+    t.bigint "alchemist_id"
     t.string "transmutation_name"
     t.index ["alchemist_id"], name: "index_transactions_on_alchemist_id"
     t.index ["transmutation_name"], name: "index_transactions_on_transmutation_name"
@@ -92,4 +95,6 @@ ActiveRecord::Schema.define(version: 2019_01_20_053055) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "transactions", "alchemists"
+  add_foreign_key "transactions", "transmutations", column: "transmutation_name", primary_key: "name"
 end
