@@ -12,6 +12,14 @@ class Api::TransmutationsController < ApplicationController
     end
   end
 
+  def transmute
+    if current_alchemist.transmute!(transmutation)
+      json_response(mana: current_alchemist.mana)
+    else
+      json_response(current_alchemist.errors.messages, :forbidden)
+    end
+  end
+
   def mind
     @transmutations = Transmutation.mind
 

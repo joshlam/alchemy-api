@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     resources :transmutations, param: :name, only: :show do
       member do
         put :unlock
+        put :transmute
       end
 
       collection do

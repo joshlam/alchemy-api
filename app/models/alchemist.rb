@@ -20,6 +20,25 @@ class Alchemist < ApplicationRecord
     save!
   end
 
+  def transmute!(transmutation)
+    return false if unlocking_transmutation?
+    return false unless transmutable?(transmutation)
+
+    self.class.transaction do
+      add_mana(transmutation.mana)
+
+      self.send("#{transmutation.id}_ready_at=", 24.hours.from_now)
+
+      save!
+
+      Transaction.record(
+        alchemist_id:       id,
+        transmutation_name: transmutation.name,
+        mana_earned:        transmutation.mana
+      )
+    end
+  end
+
   def statuses
     Transmutation.all.each_with_object({}) do |transmutation, statuses|
       statuses[transmutation.name] = status_for(transmutation)
@@ -58,12 +77,25 @@ class Alchemist < ApplicationRecord
     ).count == 2
   end
 
+  def unlocking_transmutation?
+    mind_unlock? || body_unlock?
+  end
+
+  def transmutable?(transmutation)
+    unlocked?(transmutation) && ready_for?(transmutation)
+  end
+
   def ready_for?(transmutation)
     ready_at = self.send("#{transmutation.id}_ready_at")
 
     return true if ready_at.nil?
 
     ready_at <= Time.now
+  end
+
+  def add_mana(mana)
+    self.mana          += mana
+    self.lifetime_mana += mana
   end
 
 end
