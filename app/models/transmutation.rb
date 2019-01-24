@@ -2,6 +2,8 @@ class Transmutation < ApplicationRecord
 
   self.primary_key = 'name'
 
+  has_many :transactions, foreign_key: 'transmutation_name'
+
   enum category: %i[mind body]
 
   def self.Gratitude
