@@ -10,12 +10,12 @@ class Transmutation < ApplicationRecord
     find_by_name('Gratitude')
   end
 
-  def self.Values
-    find_by_name('Values')
+  def self.Connect
+    find_by_name('Connect')
   end
 
-  def self.Socialize
-    find_by_name('Socialize')
+  def self.Values
+    find_by_name('Values')
   end
 
   def self.Affirmations
@@ -26,16 +26,16 @@ class Transmutation < ApplicationRecord
     find_by_name('Mindfulness')
   end
 
-  def self.Soul_Fuel
-    find_by_name('Soul Fuel')
+  def self.Passion
+    find_by_name('Passion')
   end
 
-  def self.Envision
-    find_by_name('Envision')
+  def self.Reading
+    find_by_name('Reading')
   end
 
-  def self.Body_Scan
-    find_by_name('Body Scan')
+  def self.Visualization
+    find_by_name('Visualization')
   end
 
   def self.Meditation
@@ -54,10 +54,6 @@ class Transmutation < ApplicationRecord
     find_by_name('Supplement')
   end
 
-  def self.Sunlight
-    find_by_name('Sunlight')
-  end
-
   def self.Fitness
     find_by_name('Fitness')
   end
@@ -66,12 +62,16 @@ class Transmutation < ApplicationRecord
     find_by_name('Nature')
   end
 
-  def self.Junk_Food
-    find_by_name('Junk Food')
+  def self.Sunlight
+    find_by_name('Sunlight')
   end
 
   def self.Good_Food
     find_by_name('Good Food')
+  end
+
+  def self.Junk_Food
+    find_by_name('Junk Food')
   end
 
   def self.Yoga
