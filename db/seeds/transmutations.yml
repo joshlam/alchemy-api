@@ -3,9 +3,9 @@
   level: 1
   tier: 1
   mana: 2
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Write down 3 things you are grateful for."
+  explanation: "Grants greater emotional stability, prosocial behavior, inner peace, and optimism for the future. Reduces anxiety and depression while improving sleep quality."
+  tips: "Try to write in your gratitude journal at the same time every day. Writing at the end of the day may be easier because you can reflect on the dayʼs events for gratitude."
   more: "More goes here..."
   references: "References go here..."
 - name: "Connect"
@@ -13,9 +13,9 @@
   level: 2
   tier: 2
   mana: 2
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Connect with a friend or loved one over face to face conversation or via phone call."
+  explanation: "Grants improved physical, mental, and emotional well-being. Reduces anxiety, depression medical costs, and injury recovery time. Also awards higher self-esteem, better sleep quality, stronger immunity, nervous system, and cardiovascular system, less bodily inflammation, greater emotional intelligence, and a longer life span."
+  tips: "-If possible, try to opt for an in-person connection first, a video call second, and a phone call as a last resort. Research shows that face-to-face connections are more powerful than digitally connecting, and is shown to protect from symptoms of depression as we age.\n\n-Initiating contact with a friend or loved one every so often not only benefits you but also them! By taking the initiative to say hello, you also provide the other person with a sense of being wanted and loved."
   more: "More goes here..."
   references: "References go here..."
 - name: "Values"
@@ -23,9 +23,9 @@
   level: 2
   tier: 2
   mana: 2
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Choose 2 values from the list (in “Tips”) that mean the most to you. Write a paragraph each as to why they are important to you and a time in your life when you were able to express this value. Once completed, reread what you’ve written daily to transmute."
+  explanation: "Grants improved willpower, focus, attentiveness, emotional receptivity, and mental perseverance in the face of hardship. Reduces stress and anxiety. Also awards a higher sense of wellbeing, and potentially better academic performance."
+  tips: "List:\n\t-Humor\n\t-Spirituality\n\t-Politics\n\t-Family and friends\n\t-Novelty\n\t-Success\n\t-Altruism\n\t-Ambition\n\t-Community\n\t-Kindness\n\t-Creativity\n\t-Fitness\n\t-Hard Work\n\t-Health\n\t-Honesty\n\t-(Create Your Own)\n\n-We advise you to physically write down this transmutation instead of typing—it will give a greater sense of solidarity, and allow you to put in more thought as you write.\n\n-Try pinning it on your wall, in a binder, or somewhere where you can easily reread it.\n\n-If you can’t think of a time where you embodied this value, write about a potential future experience where you can exhibit it instead."
   more: "More goes here..."
   references: "References go here..."
 - name: "Affirmations"
@@ -33,19 +33,19 @@
   level: 3
   tier: 3
   mana: 2
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Recite 3 self affirming statements out loud, 3 times each, visualizing yourself embodying each statement in a future scenario."
+  explanation: "Grants better problem-solving skills, stronger resilience, improved health and relationship outcomes, greater ability to implement new positive behaviors. Protects psychological wellbeing, and awards a higher sense of self-empowerment."
+  tips: "-Visualizing yourself embodying the affirmation in the future is critical for the full effects of this transmutation.\n\n-The subconscious mind is most open to affirmations while we are in the “alpha” brainwave state—our most relaxed state of mind. The alpha wave frequency is often achieved in a meditative state or just before falling asleep—creating an optimal time to recite one’s affirmations. Music designed to create the alpha wave state can also help. Thus, you can increase the effects of this transmutation if you recite your affirmations in the alpha state.\n\nSample affirmations:\n\t-I am a touring musician, performing in a new city every week and sharing the notes of my heart with the world.\n\n\t-I am self-made. I am the owner of my own business, earning thousands of dollars and  fulfilling my customers’ needs by adding value to their lives.\n\n\t-I am an A-list actor, working every day to give life to the best narratives in cinema.\n\n\t-I am a prolific writer, constantly filling pages with my ideas and earning an income doing what I love."
   more: "More goes here..."
   references: "References go here..."
 - name: "Mindfulness"
   category: 0
   level: 3
   tier: 3
-  mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  mana: 3
+  instructions: "Write down something new that you notice today among your everyday activities."
+  explanation: "Grants enhanced self-control, better focus, social skills, job performance, and emotional, mental and physical wellbeing. Reduces stress, anxiety, and depression. Also grants stronger immunity, healthier blood pressure and heart rate, inner peace, and a more positive connection to reality."
+  tips: "-The goal of mindfulness practice is to increase your awareness through your senses and becoming more present.\n\n-You can become more present by simply noticing something new in an experience you’ve had hundreds of times.\n\nExamples:\n\t-I felt the groups of the bristles of my toothbrush sway against my teeth this morning—they were incredibly soft.\n\n\t-I caught sight and noticed, for the first time, a pattern on a rug we have in the living room today. There were four flower petals in repeated fashion, branching out of each other.\n\n\t-Walking by a park at my house, I smelled fresh cut grass and some flowers nearby—it reminded me of my old neighborhood.\n\n\t-I really tasted the spices of some of the curry I had for dinner. There was a kick from the cayenne pepper—and it went well with moist textures of the jasmine rice.\n\n\t-I focused on the touch and motion of my hands as I tied the trash bag when taking out the garbage today. It was smooth."
   more: "More goes here..."
   references: "References go here..."
 - name: "Passion"
@@ -53,9 +53,9 @@
   level: 3
   tier: 3
   mana: 4
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Spend 20 minutes engaged in one of your passions."
+  explanation: "Grants higher psychological well-being, a more wholesome self-identity, self-growth, a healthier brain, and greater physical health. Protects against heart disease, stress, anxiety, depression, low blood pressure, and awards better sleep quality."
+  tips: "-Try dedicating the same time, every day, to your passion. This will help build this into a habit that you can stick with.\n\n-If you have many passions, try sticking to just one for this transmutation. The feeling of growth and success is multiplied when we stick to one passion instead of spending time on multiple passions where the feedback of progress is much slower."
   more: "More goes here..."
   references: "References go here..."
 - name: "Reading"
@@ -63,29 +63,29 @@
   level: 7
   tier: 4
   mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Reading 5 pages from any book."
+  explanation: "Protects against stress and anxiety. Grants higher creativity, increased blood flow in the brain, stronger brain connections, improved cognitive function, improved memory, sociability, and empathy, a higher self-understating, higher chances of financial success, an increased life span, and improved overall physical and mental wellbeing."
+  tips: "-Try reading right before bed. According to the Great British Bedtime Report by The Sleep Council, 39% of people who are in the habit of reading before they go to sleep, sleep very well.\n\n-Take a book with you when you leave the house. Reading can be helpful to fill in downtime during the day and achieve your 5 page goal. You could read while (e.g) waiting to be called into an appointment, standing on the train during a commute, or waiting for your food to arrive at a restaurant."
   more: "More goes here..."
   references: "References go here..."
 - name: "Visualization"
   category: 0
   level: 7
   tier: 4
-  mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  mana: 6
+  instructions: "Sit in a quiet space and visualize a specific goal. Recite aloud why this goal is important to you. Then, imagine, using all 5 senses, a first-person experience of what it would be like to achieve this goal. Be as detailed as possible; continue for 1 minute."
+  explanation: "Grants higher chances for goal achievement, a higher ability to implement positive habits and behaviors, higher self-confidence, a greater sense of self-empowerment, and a stronger mind-body connection."
+  tips: "-The power of this transmutation comes from being in a state of relaxation. Find a quiet space that will leave you undisturbed for 1 minute.\n\n-Image with all 5 senses. This will help the goal hold more strongly in your mind by activating more connections in the brain.\n\n-What does it feel like to achieve this goal? Is there relief? Excitement? Tears of joy?\n\n-What do you see? What kind of clothes are you wearing? Who are you with? Where are you at?\n\n-What do you hear? Are you celebrating? Are there cheers? What are others saying around you?\n\n-What does the experience smell like?\n\n-Are there any tastes associated with this experience?\n\n-It may be helpful to use relaxing music to help promote a more positive atmosphere in your visualization practice."
   more: "More goes here..."
   references: "References go here..."
 - name: "Meditation"
   category: 0
   level: 9
   tier: 5
-  mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  mana: 6
+  instructions: "Meditate for 1 minute"
+  explanation: "Reduces stress, anxiety, depression, and protects against cancer. Grants better sleep quality, stronger immunity, healthier blood pressure, greater pain tolerance, self-discipline and sharper focus."
+  tips: "-Meditating first thing in the morning is helpful as the brain is just coming out of a slow-wave brain state. This will make it easier to get into a meditative state.\n\n-Meditating in the same place can be beneficial as it will form an association between your brain’s ability to “zone in” and a particular setting.\n\n-Try to meditate both indoors and outdoors to see which settings works best for you.\n\n-Sitting cross legged on the ground or in a chair without using the back are great ways to meditate. Avoid laying down as this can promote drowsiness which is counterproductive to meditation."
   more: "More goes here..."
   references: "References go here..."
 - name: "Hydration"
@@ -93,19 +93,19 @@
   level: 1
   tier: 1
   mana: 2
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Drink 1 liter of water today"
+  explanation: "Grants sharper levels of concentration, memory, and confidence. Awards higher mood stability, reduced stress and anxiety, a healthier cardiovascular system, protection from stomach pains, headaches, and a variety of cancers, and improvement in overall mental and physical functions."
+  tips: "-It may be easier to purchase a 1 liter water bottle and sip this throughout the day, partitioning half in the morning and afternoon, and the other remaining half in the evening and night.\n\n-Calculate this transmutation only in water as other forms of beverages may contain added sweeteners, caffeine, or dehydrating components (e.g. soda, coffee, etc.)."
   more: "More goes here..."
   references: "References go here..."
 - name: "Sleep"
   category: 1
   level: 2
   tier: 2
-  mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  mana: 7
+  instructions: "Get 7 hours of sleep."
+  explanation: "Grants stronger immunity, greater concentration, creativity, problem-solving skills, balance, and coordination, and sharper memory. Protects against weight gain, diabetes, and heart disease. Also grants better regulation of hormones that control digestion and growth."
+  tips: "-Avoid greasy and fried foods before bedtime. These kinds of foods may cause indigestion which can disrupt sleep.\n\n-Avoid all caffeine (especially after noon).\n\n-Sleep and wake up at the same time every day (even on weekends!). This practice allows your body to anticipate when it’s time to go to sleep which helps it calibrate melatonin release—which makes you sleepier at bedtime.\n\n-Create a night routine that you can stick with, to train your body to recognize when it’s time for sleep and increase the quality of the sleep you get.\n\n-Expose yourself to early morning sunlight (this will help regulate the body clock to know when to release sleep-inducing chemicals at night).\n\n-Limit screen exposure several hours before bedtime.\n\n-Use Nightshift mode on screens several hours before bedtime. Nightshift mode allows screens to emit less blue light (the color of sunlight) in favor of warmer colors (the color of the sun at dusk)."
   more: "More goes here..."
   references: "References go here..."
 - name: "Supplement"
@@ -113,9 +113,9 @@
   level: 2
   tier: 2
   mana: 2
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Supplement one dose of Omega-3 fatty acid. (~1 gram of EPA Omega-3)"
+  explanation: "Grants stronger bone structure, improved cognition and immunity. Reduces depression, inflammation, blood pressure, and joint pain. Protects against cardiovascular disease, cancer, eye degeneration, obesity, Alzheimer’s disease, and awards greater overall health."
+  tips: "-Fish oil capsules are a great resource to use to supplement Omega-3s.\n\n-Try to aim for at least 1,000 milligrams of EPA Omega-3 fatty acids per day in your supplementation, and about 500 milligrams of DHA. For purity, look for brands that include on the label “molecularly distilled” to ensure as little pollutants as possible (such as mercury, a common pollutant found in today’s fish).\n\n-Taking your fish oil capsule with a vitamin C supplement (an antioxidant) will help protect the omega-3s from being damaged by free radicals in the bloodstream, ensuring that your brain is able to make full use of the fatty acids."
   more: "More goes here..."
   references: "References go here..."
 - name: "Fitness"
@@ -123,9 +123,9 @@
   level: 3
   tier: 3
   mana: 7
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Take a brisk walk for 30 minutes, or engage in at least moderate physical activity for that time."
+  explanation: "Grants reduced depression, anxiety, body fat, insomnia, pain, and signs of aging. Protects against type 2 diabetes, high blood pressure, cancer, obesity, and mental disorders. Also grants improved self esteem, better memory and focus, stronger bones, leaner muscle mass, regeneration of new brain cells, and higher energy levels."
+  tips: "-You don’t need a gym membership to complete this transmutation. Try making your physical activity fun! This can mean anything from light jogging while listening to an audio book, dancing to your favorite playlist, or even going on an easy hike in nearby nature.\n\n-Planning your fitness activity with a friend or an accountability partner may help make this transmutation more fun and thus more likely to be completed.\n\n-Simply dressing up to go out for a walk (i.g. putting on shorts, sneakers) may be the final nudge you need to actually get out the door. Try doing this if you find it especially hard to complete this transmutation.\n\n-Scheduling your fitness time in your calendar beforehand will help this transmutation be completed."
   more: "More goes here..."
   references: "References go here..."
 - name: "Nature"
@@ -133,19 +133,19 @@
   level: 3
   tier: 3
   mana: 3
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Spend 15 minutes in nature. (This includes parks and greenspaces)"
+  explanation: "Reduces anxiety and depression. Grants stronger immunity, healthier blood pressure levels, improved mood, and calmness."
+  tips: "-Finding nature doesn’t have to equate to a large forest or the beach. An open park is perfectly fine, even in the winter.\n\n-Don’t worry if you can’t find the time to go out into nature every day. Studies show that even once or twice a week is enough to reap benefits days or even weeks down the line."
   more: "More goes here..."
   references: "References go here..."
 - name: "Sunlight"
   category: 1
   level: 3
   tier: 3
-  mana: 2
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  mana: 3
+  instructions: "Spend 20 minutes outside, preferably in direct sunlight. Or take one dose of at least 2,000 IU Vitamin D3."
+  explanation: "Grants focus, improved mood and sleep quality. Protects against cancer, autoimmune disease, cardiovascular disease, arthritis, and infections. Reduces depression, anxiety, and inflammation. Also grants stronger bones, teeth, immunity, leanness of muscle tissue, and higher physical strength."
+  tips: "-In the continental United States, your body should make enough Vitamin D from May through August if you average 10-15 minutes of sun exposure between 11AM to 3PM.\n\n-In March, April, September, and October, it will probably take at least 30 minutes per day.\n\n-For dark complexions, double all recommended times.\n\n-It is a good idea to supplement from November through February.\n\n-If there is very little sunlight in your geographic area, (especially during winter months) you can use a light box; as over seventy research studies show, bright light therapy yields better results for SAD (seasonal affective disorder) patients than medication. Specifically, any light box with fluorescent bulbs with 10,000 lux is more than sufficient."
   more: "More goes here..."
   references: "References go here..."
 - name: "Good Food"
@@ -153,19 +153,19 @@
   level: 7
   tier: 4
   mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Eat one serving of fruit today. (1 large banana, an apple, a medium pear, 8 strawberries, etc.)"
+  explanation: "Protects against diabetes, heart disease, high blood pressure, cancer, neurodegenerative disease, inflammation, and depression. Grants reduced degenerative effects of aging, improved cognition and sharper memory."
+  tips: "-Starting your day off with a fruit smoothie may help you reach your recommended serving of fruit easily and quickly."
   more: "More goes here..."
   references: "References go here..."
 - name: "Junk Food"
   category: 1
   level: 7
   tier: 4
-  mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  mana: 7
+  instructions: "Avoid High Sugar Foods (E.G. Candy, Sodas, Juices, Sports/Energy Drinks, Ice Cream)"
+  explanation: "Protects against heart disease, weight gain, acne, diabetes, cancer, depression, anxiety, premature aging, fatigue, kidney disease, and fatty liver disease. Grants a longer life span."
+  tips: "-Research shows that the addiction to sugar is virtually identical with addictions caused by hard drugs such as cocaine. If it seems difficult to break from sugary foods, realize that this is exactly how hard drug addicts feel at the thought of breaking away from their substance of abuse\n\n-To break the sugar habit, we suggest you spend time to detox from all sugar products and allow yourself to go through the physical withdrawals (yes these are real) from sugar. Symptoms of withdrawal to anticipate are: headaches, hormonal fluctuations, and low mood. This detox period can last anywhere from 3-21 days.\n\n-Actively read nutrition labels of foods before you purchase them. Enormous amounts of sugar are hidden in foods like yogurt, canned pasta sauce, and protein bars.\n\n-To keep blood sugar levels stable throughout the detox period, aim for balanced meals that contain protein, fiber, and healthy fats—these meals can look like white egg omelettes with veggies, chicken salads with olive oil, and meat and veggie stews."
   more: "More goes here..."
   references: "References go here..."
 - name: "Yoga"
@@ -173,8 +173,8 @@
   level: 9
   tier: 5
   mana: 5
-  instructions: "Instructions go here..."
-  explanation: "Explanation goes here..."
-  tips: "Tips go here..."
+  instructions: "Complete the following yoga pose:\nDownward dog for 45 seconds."
+  explanation: "Grants a healthier cardiovascular system, blood pressure, and protection against heart disease and stroke. Reduces stress, anxiety, depression, inflammation, headaches, and sensitivity to pain. Also grants higher physical strength, a higher range of flexibility, improved sleep quality and balance, deeper lung capacity, and a higher overall quality of life."
+  tips: "-Be sure to inhale and exhale deeply during the poses, allowing your full attention to rest on becoming aware of your body.\n\n-Doing yoga first thing in the morning will help you center yourself for the day. Doing it at night can help you unwind before bed.\n\n-Consider putting on relaxing music while you perform your pose(s) if you find it helps your state."
   more: "More goes here..."
   references: "References go here..."
