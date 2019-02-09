@@ -96,7 +96,7 @@ class Alchemist < ApplicationRecord
       'tier = 2 AND alchemist_id = ? AND category = ?',
       id,
       category
-    ).count == 2
+    ).uniq.count == 2
   end
 
   def unlocking_transmutation?
@@ -140,7 +140,7 @@ class Alchemist < ApplicationRecord
       'alchemist_id = ? AND name in (?)',
       id,
       [last_mind_unlock, last_body_unlock]
-    ).count == 2
+    ).uniq.count == 2
   end
 
   def rank_to_num
