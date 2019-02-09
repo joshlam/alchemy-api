@@ -22,16 +22,16 @@ class Transmutation < ApplicationRecord
     find_by_name('Affirmations')
   end
 
-  def self.Mindfulness
-    find_by_name('Mindfulness')
+  def self.Reading
+    find_by_name('Reading')
   end
 
   def self.Passion
     find_by_name('Passion')
   end
 
-  def self.Reading
-    find_by_name('Reading')
+  def self.Mindfulness
+    find_by_name('Mindfulness')
   end
 
   def self.Visualization
