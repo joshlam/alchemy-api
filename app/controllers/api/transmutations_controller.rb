@@ -1,7 +1,15 @@
 class Api::TransmutationsController < ApplicationController
 
   def show
-    json_response(transmutation)
+    json_response({
+      name:         transmutation.name,
+      mana:         transmutation.mana_for(current_alchemist),
+      instructions: transmutation.instructions_for(current_alchemist),
+      explanation:  transmutation.explanation,
+      tips:         transmutation.tips,
+      more:         transmutation.more,
+      references:   transmutation.references
+    })
   end
 
   def unlock

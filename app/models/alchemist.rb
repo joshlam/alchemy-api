@@ -25,7 +25,9 @@ class Alchemist < ApplicationRecord
     return false unless transmutable?(transmutation)
 
     self.class.transaction do
-      add_mana(transmutation.mana)
+      mana_earned = transmutation.mana_for(self)
+
+      add_mana(mana_earned)
 
       self.send("#{transmutation.id}_ready_at=", 24.hours.from_now)
 
@@ -34,7 +36,7 @@ class Alchemist < ApplicationRecord
       Transaction.record(
         alchemist_id:       id,
         transmutation_name: transmutation.name,
-        mana_earned:        transmutation.mana
+        mana_earned:        mana_earned
       )
     end
   end
