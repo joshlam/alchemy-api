@@ -5,7 +5,7 @@
   mana: 2
   instructions: "Write in your Alchemy Journal 3 things you are grateful for."
   explanation: "Grants greater emotional stability, prosocial behavior, inner peace, and optimism for the future. Reduces anxiety and depression while improving sleep quality."
-  tips: "Try to write in your gratitude journal at the same time every day. Writing at the end of the day may be easier because you can reflect on the dayʼs events for gratitude."
+  tips: "-Try writing your gratitude entries at the same time every day, to help build this into a habit\n\n-We encourage you to keep a journal dedicated entirely for gratitude\n\n-Writing at the end of the day may be easier because you can reflect on the day’s events for gratitude.\n\n-Studies show that practicing gratitude right before bed is helpful for better sleep quality.\n\n-As you repeat this transmutation, challenge yourself to think of 3 new things from what you’ve already written."
   more: "\tAccording to several studies, gratitude has been viewed as a crucial determinant of well-being. Gratitude helps create emotional foundations of peace and happiness, as well as affecting a multitude of areas that increase the quality of our life.\n\nProSocial Behavior\n\tResearch in the social effects of gratitude include grateful people tending to interpret help as being more valuable, by interpreting deeper expressions of kindness and caring, allowing for stronger social bonds. One study also found that gratitude cultivates thicker emotional skin, as demonstrated by gratitude practicers doing better to keep their bearing in the face of rude or negative interactions compared to their non-practicing counterparts.\n\nPhysical Vitality\n\tGratitude brings balance to the body. Grateful people are projected to have greater optimism across adult years. Research links optimism with positive health outcomes across time. Gratitude is also shown to be a strong cultivator of conscientiousness, a trait that encourages proactivity, getting good nutrition, maintaining a social support base, and responsibly seeking medical care when needed. There is evidence that gratitude journaling also increases the likelihood of exercising—as one study found gratitude practicing groups exercised for 1.5 more hours on average per week than their non-practicing counterparts.\n\nSleep Quality\n\tIn matters of sleep, gratitude practice predicts greater subjective sleep quality, sleep duration, and less sleep latency and daytime dysfunction. This relationship has been established through pre-sleep thoughts that affect sleep quality, indicating that gratitude listing before bed is helpful for better sleep. A 2009 study of 401 people—40% of whom had clinical sleep disorders—found that the most grateful people had better sleep quality, normalized sleep duration, were able to fall asleep faster, and had less daytime tiredness compared to those who weren’t as thankful.\n\nRelieving Stress\n\tStress reactivity is measured through psychological health. Because gratitude eases stress reactivity by its impact on our psychological health, we put our bodies through less stress and conserve energy. This results in feeling generally more peaceful.\n\nIntervention Success\n\tIt is conceivable that individuals with excellent mental health to begin with are those more likely to practice gratitude in the first place. Although true, it does not explain the success of gratitude interventions, whereby individuals from a wide range of age groups and occupations saw significant psychological and physiological improvements by the sole act of recording grateful thoughts. To be sure, studies have also controlled for the Big Five Personality Types to confirm that personality did not play a role in receiving benefits with gratitude journaling."
   references: "https://www.ncbi.nlm.nih.gov/pubmed/11811629\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3489271/\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC1201429/\nhttps://www.ncbi.nlm.nih.gov/pubmed/20451313\nhttps://www.ncbi.nlm.nih.gov/pubmed/19073292\nhttps://www.ncbi.nlm.nih.gov/pubmed/19319695\nhttps://www.ncbi.nlm.nih.gov/pubmed/15535742\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3018856/\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC2941870/\nhttps://www.ncbi.nlm.nih.gov/pubmed/19073292\nhttps://www.ncbi.nlm.nih.gov/pubmed/18410201\nhttps://www.sciencedirect.com/science/article/pii/S0022440507000386\nhttps://greatergood.berkeley.edu/images/application_uploads/Emmons-CountingBlessings.pdf\n"
 - name: "Connect"
@@ -52,7 +52,7 @@
   category: 0
   level: 3
   tier: 3
-  mana: 4
+  mana: 6
   instructions: "Spend 20 minutes engaged in one of your passions."
   explanation: "Grants higher psychological well-being, a more wholesome self-identity, self-growth, a healthier brain, and greater physical health. Protects against heart disease, stress, anxiety, depression, low blood pressure, and awards better sleep quality."
   tips: "-Try dedicating the same time, every day, to your passion. This will help build this into a habit that you can stick with.\n\n-If you have many passions, try sticking to just one for this transmutation. The feeling of growth and success is multiplied when we stick to one passion instead of spending time on multiple passions where the feedback of progress is much slower."
@@ -92,7 +92,7 @@
   category: 1
   level: 1
   tier: 1
-  mana: 2
+  mana: 3
   instructions: "Drink 1 liter of water today"
   explanation: "Grants sharper levels of concentration, memory, and confidence. Awards higher mood stability, reduced stress and anxiety, a healthier cardiovascular system, protection from stomach pains, headaches, and a variety of cancers, and improvement in overall mental and physical functions."
   tips: "-It may be easier to purchase a 1 liter water bottle and sip this throughout the day, partitioning half in the morning and afternoon, and the other remaining half in the evening and night.\n\n-Calculate this transmutation only in water as other forms of beverages may contain added sweeteners, caffeine, or dehydrating components (e.g. soda, coffee, etc.)."
@@ -132,7 +132,7 @@
   category: 1
   level: 3
   tier: 3
-  mana: 3
+  mana: 4
   instructions: "Spend 15 minutes in nature. (This includes parks and greenspaces)"
   explanation: "Reduces anxiety and depression. Grants stronger immunity, healthier blood pressure levels, improved mood, and calmness."
   tips: "-Finding nature doesn’t have to equate to a large forest or the beach. An open park is perfectly fine, even in the winter.\n\n-Don’t worry if you can’t find the time to go out into nature every day. Studies show that even once or twice a week is enough to reap benefits days or even weeks down the line."
@@ -142,7 +142,7 @@
   category: 1
   level: 3
   tier: 3
-  mana: 3
+  mana: 4
   instructions: "Spend 20 minutes outside, preferably in direct sunlight. Or take one dose of 2,000 IU vitamin D3."
   explanation: "Grants focus, improved mood and sleep quality. Protects against cancer, autoimmune disease, cardiovascular disease, arthritis, and infections. Reduces depression, anxiety, and inflammation. Also grants stronger bones, teeth, immunity, leanness of muscle tissue, and higher physical strength."
   tips: "-In the continental United States, your body should make enough vitamin D from May through August if you average 10-15 minutes of sun exposure between 11AM to 3PM.\n\n-In March, April, September, and October, it will probably take at least 30 minutes per day.\n\n-For dark complexions, double all recommended times.\n\n-It is a good idea to supplement from November through February.\n\n-If there is very little sunlight in your geographic area, (especially during winter months) you can use a light box; as over seventy research studies show bright light therapy yields better results for SAD (seasonal affective disorder) patients than medication. Specifically, any light box with fluorescent bulbs with 10,000 lux is more than sufficient."
@@ -152,7 +152,7 @@
   category: 1
   level: 7
   tier: 4
-  mana: 5
+  mana: 4
   instructions: "Eat one serving of fruit today. (1 large banana, an apple, a medium pear, 8 strawberries, etc.)"
   explanation: "Protects against diabetes, heart disease, high blood pressure, cancer, neurodegenerative disease, inflammation, and depression. Grants reduced degenerative effects of aging, improved cognition and sharper memory."
   tips: "-Starting your day off with a fruit smoothie may help you reach your recommended serving of fruit easily and quickly."
