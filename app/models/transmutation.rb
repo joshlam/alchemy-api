@@ -110,7 +110,7 @@ class Transmutation < ApplicationRecord
   end
 
   def meditation_instructions_for(alchemist)
-    if alchemist.apprentice? || alchemist.acolyte && alchemist.level == 1
+    if alchemist.apprentice? || alchemist.acolyte? && alchemist.level == 1
       return instructions
     end
 
