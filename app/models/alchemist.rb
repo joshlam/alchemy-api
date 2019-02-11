@@ -80,6 +80,65 @@ class Alchemist < ApplicationRecord
     ready_for?(transmutation) ? :READY : :COMPLETE
   end
 
+  def reset!
+    self.class.transaction do
+      self.mana          = 0
+      self.lifetime_mana = 0
+      self.level         = 1
+      self.rank          = 0
+
+      self.bronze = 0
+      self.silver = 0
+      self.gold   = 0
+
+      self.mind_unlock = false
+      self.body_unlock = false
+
+      self.connect_unlocked       = false
+      self.values_unlocked        = false
+      self.affirmations_unlocked  = false
+      self.mindfulness_unlocked   = false
+      self.passion_unlocked       = false
+      self.reading_unlocked       = false
+      self.visualization_unlocked = false
+      self.meditation_unlocked    = false
+      self.sleep_unlocked         = false
+      self.supplement_unlocked    = false
+      self.fitness_unlocked       = false
+      self.nature_unlocked        = false
+      self.sunlight_unlocked      = false
+      self.good_food_unlocked     = false
+      self.junk_food_unlocked     = false
+      self.yoga_unlocked          = false
+
+      self.gratitude_ready_at     = nil
+      self.connect_ready_at       = nil
+      self.values_ready_at        = nil
+      self.affirmations_ready_at  = nil
+      self.mindfulness_ready_at   = nil
+      self.passion_ready_at       = nil
+      self.reading_ready_at       = nil
+      self.visualization_ready_at = nil
+      self.meditation_ready_at    = nil
+      self.hydration_ready_at     = nil
+      self.sleep_ready_at         = nil
+      self.supplement_ready_at    = nil
+      self.fitness_ready_at       = nil
+      self.nature_ready_at        = nil
+      self.sunlight_ready_at      = nil
+      self.good_food_ready_at     = nil
+      self.junk_food_ready_at     = nil
+      self.yoga_ready_at          = nil
+
+      self.last_mind_unlock = nil
+      self.last_body_unlock = nil
+
+      save!
+
+      transactions.destroy_all
+    end
+  end
+
   private
 
   def unlocked?(transmutation)
