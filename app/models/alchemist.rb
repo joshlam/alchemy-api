@@ -97,7 +97,7 @@ class Alchemist < ApplicationRecord
     Transmutation.joins(:transactions).where(
       'tier = 2 AND alchemist_id = ? AND category = ?',
       id,
-      category
+      Transmutation.categories[category]
     ).uniq.count == 2
   end
 
