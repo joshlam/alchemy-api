@@ -29,7 +29,10 @@ class Alchemist < ApplicationRecord
 
       add_mana(mana_earned)
 
-      self.send("#{transmutation.id}_ready_at=", 24.hours.from_now)
+      self.send(
+        "#{transmutation.id}_ready_at=",
+        (DateTime.now() + 1.day).midnight()
+      )
 
       save!
 
