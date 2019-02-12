@@ -12,7 +12,7 @@ class Api::AlchemistsController < ApplicationController
 
   def alchemist_params
     @alchemist_params ||=
-      params.require(:alchemist).permit(:name, :email, :password)
+      params.require(:alchemist).permit(:username, :password)
   end
 
 end

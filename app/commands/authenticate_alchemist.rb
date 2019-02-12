@@ -17,7 +17,7 @@ class AuthenticateAlchemist
               :password
 
   def alchemist
-    alchemist = Alchemist.find_by_email(email)
+    alchemist = Alchemist.find_by_username(email)
 
     unless alchemist.present? && alchemist.authenticate(password)
       errors.add(:user_authentication, 'Invalid credentials')
