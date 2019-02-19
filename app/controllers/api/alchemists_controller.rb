@@ -3,7 +3,10 @@ class Api::AlchemistsController < ApplicationController
   skip_before_action :authenticate_request, only: :create
 
   def create
-    @alchemist = Alchemist.create!(alchemist_params)
+    @alchemist = Alchemist.create!({
+      username: alchemist_params[:username].downcase.strip,
+      password: alchemist_params[:password]
+    })
 
     json_response(@alchemist, :created)
   end
