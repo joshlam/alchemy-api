@@ -30,7 +30,7 @@ class Alchemist < ApplicationRecord
 
       self.send(
         "#{transmutation.id}_ready_at=",
-        (DateTime.now() + 1.day).midnight()
+        (DateTime.now() + 16.hours).midnight() + 8.hours
       )
 
       save!
