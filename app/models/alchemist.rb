@@ -63,17 +63,6 @@ class Alchemist < ApplicationRecord
     save!
   end
 
-  def can_transcend?
-    return false if unlocking_transmutation?
-    return false if alchemist? && max_level?
-
-    sufficient_mana? && transmutation_requirements_met?
-  end
-
-  def can_ascend?
-    can_transcend? && max_level? && !alchemist?
-  end
-
   def statuses
     Transmutation.all.each_with_object({}) do |transmutation, statuses|
       statuses[transmutation.name] = status_for(transmutation)
@@ -147,6 +136,18 @@ class Alchemist < ApplicationRecord
     end
   end
 
+  def present
+    {
+      rank:          rank,
+      level:         level,
+      mana:          mana,
+      mind_unlock:   mind_unlock,
+      body_unlock:   body_unlock,
+      can_transcend: can_transcend?,
+      can_ascend:    can_ascend?
+    }
+  end
+
   private
 
   def unlocked?(transmutation)
@@ -190,6 +191,17 @@ class Alchemist < ApplicationRecord
   def add_mana(mana)
     self.mana          += mana
     self.lifetime_mana += mana
+  end
+
+  def can_transcend?
+    return false if unlocking_transmutation?
+    return false if alchemist? && max_level?
+
+    sufficient_mana? && transmutation_requirements_met?
+  end
+
+  def can_ascend?
+    can_transcend? && max_level? && !alchemist?
   end
 
   def max_level?

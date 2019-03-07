@@ -22,7 +22,7 @@ class Api::TransmutationsController < ApplicationController
 
   def transmute
     if current_alchemist.transmute!(transmutation)
-      json_response(mana: current_alchemist.mana)
+      json_response(current_alchemist.present)
     else
       json_response(current_alchemist.errors.messages, :forbidden)
     end
