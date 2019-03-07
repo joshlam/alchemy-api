@@ -138,13 +138,14 @@ class Alchemist < ApplicationRecord
 
   def present
     {
-      rank:          rank,
-      level:         level,
-      mana:          mana,
-      mind_unlock:   mind_unlock,
-      body_unlock:   body_unlock,
-      can_transcend: can_transcend?,
-      can_ascend:    can_ascend?
+      rank:              rank,
+      level:             level,
+      mana:              mana,
+      mana_for_leveling: mana_for_leveling,
+      mind_unlock:       mind_unlock,
+      body_unlock:       body_unlock,
+      can_transcend:     can_transcend?,
+      can_ascend:        can_ascend?
     }
   end
 
@@ -213,6 +214,8 @@ class Alchemist < ApplicationRecord
   end
 
   def mana_for_leveling
+    return 0 if alchemist? && max_level?
+
     level * 10
   end
 
