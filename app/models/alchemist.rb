@@ -44,9 +44,7 @@ class Alchemist < ApplicationRecord
   end
 
   def transcend!
-    return false if unlocking_transmutation?
-    return false if alchemist? && max_level?
-    return false unless sufficient_mana? && transmutation_requirements_met?
+    return false unless can_transcend?
 
     self.mana -= mana_for_leveling
 
@@ -63,6 +61,17 @@ class Alchemist < ApplicationRecord
     end
 
     save!
+  end
+
+  def can_transcend?
+    return false if unlocking_transmutation?
+    return false if alchemist? && max_level?
+
+    sufficient_mana? && transmutation_requirements_met?
+  end
+
+  def can_ascend?
+    can_transcend? && max_level? && !alchemist?
   end
 
   def statuses
