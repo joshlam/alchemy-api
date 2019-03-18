@@ -48,7 +48,7 @@ class Alchemist < ApplicationRecord
 
     self.mana -= mana_for_leveling
 
-    if !alchemist? && max_level?
+    if max_level_for_rank?
       self.level = 1
       self.rank  = rank_to_num + 1
     else
@@ -196,17 +196,16 @@ class Alchemist < ApplicationRecord
 
   def can_transcend?
     return false if unlocking_transmutation?
-    return false if alchemist? && max_level?
 
     sufficient_mana? && transmutation_requirements_met?
   end
 
   def can_ascend?
-    can_transcend? && max_level? && !alchemist?
+    can_transcend? && max_level_for_rank?
   end
 
-  def max_level?
-    level == (alchemist? ? 11 : 10)
+  def max_level_for_rank?
+    level == 10 && !alchemist?
   end
 
   def sufficient_mana?
@@ -214,8 +213,6 @@ class Alchemist < ApplicationRecord
   end
 
   def mana_for_leveling
-    return 0 if alchemist? && max_level?
-
     level * 10
   end
 
