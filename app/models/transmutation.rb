@@ -85,28 +85,19 @@ class Transmutation < ApplicationRecord
   def instructions_for(alchemist)
     return instructions unless varies_by_level?
 
-    return hydration_instructions_for(alchemist) if name == 'Hydration'
     return meditation_instructions_for(alchemist) if name == 'Meditation'
   end
 
   def mana_for(alchemist)
     return mana unless varies_by_level?
 
-    return hydration_mana_for(alchemist) if name == 'Hydration'
     return meditation_mana_for(alchemist) if name == 'Meditation'
   end
 
   private
 
   def varies_by_level?
-    name == 'Hydration' || name == 'Meditation'
-  end
-
-  def hydration_instructions_for(alchemist)
-    return 'Drink 1.25 liters of water today' if alchemist.acolyte?
-    return 'Drink 1.5 liters of water today' if alchemist.alchemist?
-
-    return instructions
+    name == 'Meditation'
   end
 
   def meditation_instructions_for(alchemist)
@@ -122,13 +113,6 @@ class Transmutation < ApplicationRecord
     minutes += 10 if alchemist.alchemist?
 
     minutes
-  end
-
-  def hydration_mana_for(alchemist)
-    return 3 if alchemist.acolyte?
-    return 4 if alchemist.alchemist?
-
-    return mana
   end
 
   def meditation_mana_for(alchemist)
